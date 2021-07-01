@@ -9,7 +9,6 @@ const UploadForm = () => {
   const[cloth, setCloth] = useState("");
   const[len, setLen] = useState("");
 
-  const[analyze, setAnalyze] = useState(false);
   
   const types = ['image/png', 'image/jpeg'];
 
@@ -51,6 +50,7 @@ const UploadForm = () => {
           file={file} setFile={setFile} 
           cloth={cloth} setCloth={setCloth}
           len={len} setLen={setLen}
+          DBName={cloth+len}
         />}
 
       </div>

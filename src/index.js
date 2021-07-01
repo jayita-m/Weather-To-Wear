@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import UploadPage from './UploadPage';
+import GeneratePage from './GeneratePage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UploadPage />
   </React.StrictMode>,
   document.getElementById('root')
 );

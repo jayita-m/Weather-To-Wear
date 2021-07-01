@@ -15,6 +15,12 @@ body{
   max-width: 960px;
   margin: 0 auto;
 }
+
+.GPage {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .title h1{
   color: var(--primary);
   font-size: 1.2rem;
@@ -25,14 +31,40 @@ body{
   text-align: center;
 }
 .title h2{
-  margin-top: 10px;
+  margin: 0px;
+  padding: 0px;
   font-size: 2.6rem;
+}
+
+.title p{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  color:#efb6b2;
 }
 
 .titleUploads h2 {
   text-align: center;
   margin-top: 90px;
   font-size: 2.6rem;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  flex: 50%;
+}
+
+.column2 {
+  flex: 50%;
 }
 
 .displayedImg {
@@ -77,6 +109,7 @@ body{
   font-size: 16px;
   color: #efb6b2;
 }
+
 
 input[type='radio']:after {
   width: 15px;
@@ -188,3 +221,237 @@ label:hover{
   box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
   border: 3px solid white;
 }
+
+.parentOutfit {
+  text-align: center;
+}
+
+.outfitPic {
+  margin-bottom: 2px;
+  border-radius: 7px;
+  opacity: 0.9;
+}
+
+.tagline {
+  position: relative;
+  text-align: center;
+}
+
+.SearchBar {
+  text-align: center;
+}
+
+#city {
+  text-align: center;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0.5px;
+  border-color:#4e4e4e;
+  border-style: solid;
+}
+
+#state {
+  width: 30px;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-align: center;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0.5px;
+  border-color:#4e4e4e;
+  border-style: solid;
+}
+
+#GetDressing {
+  width: 1.6in;
+  height: 23px;
+  background-color: #efb6b2;
+  color: white;
+  border-width: 0;
+  border-radius: 3px;
+}
+
+#GetDressing:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#WeatherStatus {
+  text-align: center;
+  height: 26px;
+  background-color: #fff1f0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-width: 0px;
+  border-color:#efb6b2;
+  border-radius: 6px;
+  border-style: solid;
+  padding: 6px;
+}
+
+.curWeath {
+  background-color: white;
+  margin-right: 20px;
+  border-width: 2px;
+  border-color:#efb6b2;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow:12px 12px 25px grey;  
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+
+.outfitTitle {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+
+.locationTag {
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 20px;
+  font-size: 0.8em;
+  color:gray;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.creditTag {
+  text-align: center;
+  padding: 0px;
+  font-size: 0.8em;
+  color:#4e4e4e;
+  letter-spacing: 3px;
+}
+
+.tempTag {
+  display:inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.parentTemp{
+  text-align: center;
+}
+
+.descTag {
+  font-size: 0.8em;
+  color:gray;
+  letter-spacing: 3px;
+}
+
+.numTag {
+  font-size: 2em;
+  color:#4e4e4e;
+  font-weight: 999;
+  letter-spacing: 1px;
+}
+
+.windTag {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: gray;
+}
+
+.rainTag {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  color:#4e4e4e;
+}
+
+.parentWeather {
+  text-align: center;
+}
+
+#randomButton {
+  color:#ffffff;
+  width: 100%;
+  height: 36px;
+  background-color: #efb6b2;
+  border-radius: 10px;
+  border-width: 0px;
+  letter-spacing: 3px;
+}
+
+#randomButton:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.logoName {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color:#fff1f0;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  right: 200px;
+  top: 360px;
+}
+
+.tweetButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color:#efb6b2;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  top: 460px;
+  right: 200px;
+}
+
+.tweetButton:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.shopButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #d6847e;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  top: 560px;
+  right: 200px;
+}
+
+.shopButton:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.iconFA {
+  font-size: 2.8em;
+  color: white;
+  align-self: center;
+}
+

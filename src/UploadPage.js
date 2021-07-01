@@ -4,7 +4,7 @@ import UploadForm from './comps/UploadForm';
 import ImageGrid from './comps/ImageGrid';
 import Modal from './comps/Modal';
 
-function App() {
+function UploadPage() {
   const [selectedImg, setSelectedImg] = useState(null);
 
   return (
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default UploadPage;
