@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Screenshots 📷
 
-1. ![Screenshot1](/wtw_1.jpg?raw=true "Title")
+1. ![Screenshot1](wtw_1.jpg?raw=true)
 
 
 
