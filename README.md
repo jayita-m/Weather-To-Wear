@@ -1,11 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## About 🤩
-This projecta is full-stack web application that suggests weather-appropriate outfits for the day from the user's own inventory. This program is capable of suggesting weather-appropriate outfits for any location, shuffle outfits, and tweet about the user's #OOTD. User can also view their recently uploaded clothing items in an Instagram-like feed.
+* This project is full-stack web application that suggests **weather-appropriate** outfits for the day from the user's own inventory. 
+* This program is capable of suggesting weather-appropriate outfits for **any location, shuffle outfits, and tweet about the user's #OOTD.** 
+* User can also view their recently uploaded clothing items in an **Instagram-like** feed.
 
-I worked on both the back-end and the front-end of this application. I utilized Google's Cloud Vision AI to detect logos on branded clothing items, and suggest user to buy more items accordingly. I used Firebase as my backend solution, Weatherbit API for reading the weather, and ReactJS to build the frontend of this interactive app.
+* I worked on both the back-end and the front-end of this application. 
+* I utilized **Google's Cloud Vision AI** to detect logos on branded clothing items, and suggest user to buy more items accordingly. 
+* I used Firebase as my backend solution, Weatherbit API for reading the weather, and ReactJS to build the frontend of this interactive app.
 
-Tech Used: Google Vision AI, ReactJS, Firebase, Javascript, Axios
+**Tech Used:** Google Vision AI, ReactJS, Firebase, Javascript, Axios
 
 ## Screenshots 📷
 
