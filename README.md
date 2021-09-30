@@ -2,7 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Screenshots 📷
 
-1. !![alt text](https://i.imgur.com/Dkwd3uN.jpg)
+1. ![alt text](https://i.imgur.com/Dkwd3uN.jpg)
+2. ![alt text](https://i.imgur.com/Kp8q9Ka.jpg)
+3. ![alt text](https://i.imgur.com/aD1P2WF.jpg)
+4. ![alt text](https://i.imgur.com/zK4Eu6U.jpg)
+5. ![alt text](https://i.imgur.com/4INeZVp.jpg)
+6. ![alt text](https://i.imgur.com/IuDgBK9.jpg)
+7. ![alt text](https://i.imgur.com/WiwFz7Z.jpg)
 
 
 
